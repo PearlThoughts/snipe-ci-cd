@@ -44,5 +44,5 @@ jobs:
         application_name: snipe-it
         environment_name: Snipeit-env
         version_label: "snipe-it-${{ steps.format-time.outputs.replaced }}"
-        region: us-east-1
+        region: ap-south-1
         deployment_package: deploy.zip
