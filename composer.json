@@ -41,6 +41,7 @@
     "fruitcake/laravel-cors": "^2.2",
     "guzzlehttp/guzzle": "^7.0.1",
     "intervention/image": "^2.5",
+    "laravel/dusk": "^6.19",
     "javiereguiluz/easyslugger": "^1.0",
     "laravel/framework": "^8.46",
     "laravel/helpers": "^1.4",

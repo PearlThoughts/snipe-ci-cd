@@ -115,6 +115,7 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Get dependencies
 USER docker
 RUN composer install --no-dev --working-dir=/var/www/html
+RUN composer install --no-dev laravel/dusk
 USER root
 
 ############### APPLICATION INSTALL/INIT #################
