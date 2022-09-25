@@ -43,6 +43,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: snipe-it
         environment_name: Snipeit-env
-        #version_label: "snipe-it-${{ steps.format-time.outputs.replaced }}"
+        version_description: ${{github.SHA}}
+        version_label: "snipe-it-1"
         region: ap-south-1
         deployment_package: deploy.zip
