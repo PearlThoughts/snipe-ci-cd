@@ -49,7 +49,7 @@ if [ "${SESSION_DRIVER}" == "database" ]
 then
   cp -a /var/www/html/vendor/laravel/framework/src/Illuminate/Session/Console/stubs/database.stub /var/www/html/database/migrations/2021_05_06_0000_create_sessions_table.php
 fi
-
+composer require --dev laravel/dusk
 php artisan migrate --force
 php artisan config:clear
 php artisan config:cache

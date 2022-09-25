@@ -108,6 +108,7 @@ chown -R www-data:www-data \
   /var/lib/snipeit/dumps \
   /var/lib/snipeit/keys
 
+composer require --dev laravel/dusk
 # Migrate/create database
 php artisan migrate --force
 # Clear cache files
