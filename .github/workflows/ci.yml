@@ -44,6 +44,6 @@ jobs:
         application_name: snipe-it
         environment_name: Snipeit-env
         version_description: ${{github.SHA}}
-        version_label: "snipe-it-1"
+        version_label: "snipe-it"
         region: ap-south-1
         deployment_package: deploy.zip
